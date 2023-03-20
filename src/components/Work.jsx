@@ -1,19 +1,8 @@
 import React  from 'react'
-
-
-
-
-
-
-
 // import Img1 from "../img/img1.jpg"
 import WorkCard from './WorkCard'
 import WorkCardData from './WorkCardData'
-
-
 import "./workCardstyle.css"
-
-
 const Work = () => {
 
   return (

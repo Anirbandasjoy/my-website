@@ -1,4 +1,4 @@
-import img1 from "../img/img1.jpg"
+import img1 from "../img/img1.png"
 
 
 
@@ -10,11 +10,17 @@ import img1 from "../img/img1.jpg"
 
 
  const projectCardData =[
+    // {
+    //     imgsrc : img1,
+    //     title : "Protfulio Website Design",
+    //     // text : " This is a professional portfolio website. This website will tell everyone about you ! ",
+    //     view : "https://www.facebook.com/anirban.dasjoy",
+    // },
     {
         imgsrc : img1,
-        title : "Protfulio Website Design",
+        title : "Problem Solving App",
         // text : " This is a professional portfolio website. This website will tell everyone about you ! ",
-        view : "https://www.facebook.com/anirban.dasjoy",
+        view : "https://beautiful-biscochitos-5a0f3e.netlify.app/",
     },
     
   
