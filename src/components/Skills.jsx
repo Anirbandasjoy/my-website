@@ -71,7 +71,7 @@ const skills = [
   {
     name: 'Node.js',
     icon: 'fa-brands fa-node',
-    description: 'My Experience in node.js is Beginner.'
+    description: 'My Experience in node.js is Intermediate.'
   }
 ];
 
