@@ -56,8 +56,14 @@ const skills = [
   {
     name: 'BOOTSTRAP',
     icon: 'fa-brands fa-bootstrap',
-    description: 'My ignorance in Bootstrap is Expart'
+    description: 'My ignorance in Bootstrap is Intermediate'
   },
+  {
+    name: 'Tailwind css',
+    icon: 'fa-brands fa-bootstrap',
+    description: 'My ignorance in Tailwind css is Intermediate'
+  },
+  
   {
     name: 'JavaScript',
     icon: 'fa-brands fa-square-js',
