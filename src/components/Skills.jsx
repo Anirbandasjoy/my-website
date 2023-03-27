@@ -78,6 +78,16 @@ const skills = [
     name: 'Node.js',
     icon: 'fa-brands fa-node',
     description: 'My Experience in node.js is Intermediate.'
+  },
+  {
+    name: 'Express.js',
+    icon: 'fa-brands fa-node',
+    description: 'My Experience in node.js is Intermediate.'
+  },
+  {
+    name: 'MongoDB Database',
+    icon: 'fa-brands fa-node',
+    description: 'My Experience in node.js is Expart.'
   }
 ];
 
