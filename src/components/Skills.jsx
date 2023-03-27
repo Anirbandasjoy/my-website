@@ -1,44 +1,5 @@
 import React from 'react';
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import './CardSkillSection.css';
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 const skills = [
@@ -60,7 +21,7 @@ const skills = [
   },
   {
     name: 'Tailwind css',
-    icon: 'fa-brands fa-bootstrap',
+    icon: 'fab fa-css3-alt',
     description: 'My ignorance in Tailwind css is Intermediate'
   },
   
@@ -81,12 +42,12 @@ const skills = [
   },
   {
     name: 'Express.js',
-    icon: 'fa-brands fa-node',
+    // icon: 'fa-brands fa-node',
     description: 'My Experience in node.js is Intermediate.'
   },
   {
     name: 'MongoDB Database',
-    icon: 'fa-brands fa-node',
+    // icon: 'fa-brands fa-node',
     description: 'My Experience in node.js is Expart.'
   }
 ];
