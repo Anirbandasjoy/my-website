@@ -38,7 +38,7 @@ const Footer = () => {
 
         
     </div>
-    <p style={{textAlign : "center", fontSize : ".7rem",marginBottom : ".7rem",marginTop : ".7rem", color: "#a3a1a1",lineHeight : "200%"}}>CopyRight by Anirban das joy @2023</p>
+    <p style={{textAlign : "center", fontSize : ".7rem",marginBottom : ".7rem",marginTop : ".7rem", color: "#a3a1a1",lineHeight : "200%"}}>CopyRight by <a style={{color : "#30336b"}} href="https://anirbandasjoy.netlify.app/">Anirbandasjoy</a> @2023</p>
     </div>
     
   )
