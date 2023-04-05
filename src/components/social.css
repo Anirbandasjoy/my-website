@@ -4,7 +4,9 @@
     align-items: center;
     width: 100%;
     height: 50px !important;
-    background-color: #130f40 !important;
+    /* background-color: #130f40 !important; */
+    /* background-color: #161e35; */
+    background-color: rgb(255, 255, 255);
   }
   
   .social-icon {
@@ -16,17 +18,22 @@
     cursor: pointer;
     height: 2rem !important;
     border-radius: .7rem;
-    background-color:#95afc0;
+   
+    background-color: #18192d;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    /* margin: 0 .7rem; */
+  }
+  .social-icon:hover{
+    background-color:#95afc0;
   }
   
   .spot {
-    width: 15px !important;
-    height: 5px !important;
+    width: 450px !important;
+    height: 2px !important;
     border-radius: .2rem;
     background-color: #273c75;
   }
-  
+
   @media screen and (max-width: 767px) {
     /* Styles for screens up to 767px wide */
     .social-bar {
@@ -36,6 +43,7 @@
     .social-icon {
       width: 30px;
       height: 30px;
+      margin: 0 .3rem;
     }
   
     .spot {

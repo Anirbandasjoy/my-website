@@ -19,7 +19,7 @@ const HeroImag = () => {
           <p>HI, I'AM ANIRBAN DAS JOY.</p>
         </div>
 
-        <h1>Front-end Developer</h1>
+        <h1>Front-end React Developer</h1>
         <div >
           {/* <Link className='btn' to='/projects'>download_cv</Link> */}
            <Link className='btn btn-light' to='/contact'>download_cv</Link>
