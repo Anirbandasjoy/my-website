@@ -1,4 +1,5 @@
 import img1 from "../img/img1.png"
+import img2 from "../img/img2.png"
 
 
 
@@ -21,6 +22,12 @@ import img1 from "../img/img1.png"
         title : "Problem Solving App",
         // text : " This is a professional portfolio website. This website will tell everyone about you ! ",
         view : "https://beautiful-biscochitos-5a0f3e.netlify.app/",
+    },
+    {
+        imgsrc : img2,
+        title : "Guessing Game",
+        // text : " This is a professional portfolio website. This website will tell everyone about you ! ",
+        view : "https://guessinggame11.netlify.app/",
     },
     
   
