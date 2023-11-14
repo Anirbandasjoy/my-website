@@ -1,4 +1,4 @@
-.card-skill-section {
+/* .card-skill-section {
     background-color: #bdc3c7;
     padding: 50px 0;
   }
@@ -67,7 +67,7 @@
   }
 /* 
 pricing card */
-
+/* 
 .pricing{
   width: 100%;
   padding: 6rem 1rem;
@@ -113,12 +113,57 @@ pricing card */
   width: 80%;
   margin: 2rem auto;
 }
-@media screen and (max-width:640px) {
-  .card-container{
-      max-width: 90%px;
-      margin: auto;
-      grid-template-columns: 1fr;
-     
+  */
+.card-container {
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 5rem;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 5;
+}
+.card-container h2 {
+  font-size: 0.8rem;
+}
+.card-container h1 {
+  margin-bottom: 5px;
+  color: rgb(232, 229, 223);
+  font-size: 1.4rem;
+}
+.card-body {
+  border: 1px solid rgb(200, 161, 237);
+  color: rgb(218, 203, 203);
+  padding: 1rem;
+  margin-top: 1rem;
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+.card-body .icon {
+  font-size: 2rem;
+}
+.heading-card {
+  text-align: center;
+  margin-top: 2rem;
+  color: rgb(202, 197, 197);
+}
+.heading-card h1 {
+  margin-bottom: 1rem;
+  color: rgb(202, 197, 197);
+  font-size: 1.8rem;
+}
+
+@media screen and (max-width: 640px) {
+  .card-container {
+    max-width: 90%px;
+    margin: auto;
+    grid-template-columns: 1fr;
+  }
+  .heading-card p {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
   }
 }
- 

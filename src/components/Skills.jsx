@@ -7,7 +7,7 @@ const skills = [
     name: 'HTML',
     icon: 'fab fa-html5',
     description: 'My Experience in javascripts is Expart'
-    
+
   },
   {
     name: 'CSS',
@@ -24,11 +24,11 @@ const skills = [
     icon: 'fab fa-css3-alt',
     description: 'My ignorance in Tailwind css is Intermediate'
   },
-  
+
   {
     name: 'JavaScript',
     icon: 'fa-brands fa-square-js',
-    description: 'My Experience in javascripts is Senior.'
+    description: 'My Experience in javascripts is Junior.'
   },
   {
     name: 'React',
@@ -38,37 +38,52 @@ const skills = [
   {
     name: 'Node.js',
     icon: 'fa-brands fa-node',
-    description: 'My Experience in node.js is Intermediate.'
+    description: 'My Experience in node.js is Junior.'
   },
   {
     name: 'Express.js',
     // icon: 'fa-brands fa-node',
-    description: 'My Experience in node.js is Intermediate.'
+    description: 'My Experience in node.js is Junior.'
   },
   {
-    name: 'MongoDB Database',
+    name: 'MongoDB',
     // icon: 'fa-brands fa-node',
-    description: 'My Experience in node.js is Expart.'
+    description: 'My Experience in node.js is Junior.'
+  },
+  {
+    name: 'Figma',
+    // icon: 'fa-brands fa-node',
+    description: 'My Experience in .Figma is Junior.'
   }
 ];
 
 const CardSkillSection = () => {
   return (
-    <div className="card-skill-section">
-      <div className="container">
-        <h2 className="section-title">My Skills</h2>
-        <p className='section-text'>Below are the technologies that I have more or less experience with</p>
-        <div className="card-container">
-          {skills.map((skill, index) => (
-            <div key={index} className="card">
-              <div className="icon-container">
-                <i className={skill.icon}></i>
+    <div>
+      <div className='heading-card'>
+        <h1>My Skills</h1>
+        <p>Below are the technologies that I have more or less experience with</p>
+        <p></p>
+      </div>
+      <div className='card-container'>
+
+        {
+          skills.map(skill => {
+            return <div className='card-body'>
+              <div className=''>
+                <div>
+                  <h1 className='card-heading'>{skill.name}</h1>
+                </div>
+                <div>
+                  <h2 >{skill.description}</h2>
+                </div>
               </div>
-              <h3 className="card-title">{skill.name}</h3>
-              <p className="card-text">{skill.description}</p>
+              <div>
+                <i className={`icon ${skill.icon}`}></i>
+              </div>
             </div>
-          ))}
-        </div>
+          })
+        }
       </div>
     </div>
   );
@@ -80,5 +95,5 @@ export default CardSkillSection;
 
 
 
-  
+
 
