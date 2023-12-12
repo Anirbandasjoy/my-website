@@ -9,17 +9,19 @@
   margin-bottom: 4rem;
 }
 .project-container {
+  /* background-color: red; */
   max-width: 992px;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 3rem;
-  padding-bottom: 5rem;
+  grid-gap: 1rem;
+  padding-bottom: 15rem;
   margin-top: 1rem;
 }
 .project-card {
   text-align: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 16rem;
+  /* border: 1px solid red; */
 }
 
 .project-card img {
@@ -59,10 +61,48 @@
 .workbtn {
   width: 100%;
   margin: auto;
-  padding: 0.3rem;
+  padding: 0.5rem;
+  border: 1rem;
+  color: rgb(205, 204, 204);
+  font-weight: bold;
   cursor: pointer;
   margin-top: 0.4rem;
+  background-color: #16a249;
+  outline: none;
+  border: none;
 }
+.projectCard-body {
+  padding: 1rem 0;
+}
+.buttonGroup {
+  display: flex;
+  gap: 1rem;
+  /* margin-top: 1rem; */
+}
+.projecttext {
+  text-align: left;
+}
+.projecttext h2 {
+  color: rgb(224, 215, 215);
+  text-align: left;
+}
+.projecttext p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: rgb(215, 215, 215);
+}
+.buttonGroup div {
+  width: 8rem;
+}
+.buttonGroup .hello {
+  background-color: #d6a022;
+  color: rgb(64, 63, 63);
+}
+.read {
+  text-decoration: underline;
+  color: rgb(144, 219, 144);
+}
+
 @media screen and (max-width: 740px) {
   .project-container {
     max-width: 90%;

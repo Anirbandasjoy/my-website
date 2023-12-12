@@ -7,24 +7,28 @@ import About from './routes/About';
 import Contac from './routes/Contac';
 import Home from './routes/Home';
 import Project from './routes/Project';
+import ProjectDetils from './components/ProjectDetils';
+import ErrorPage from './components/ErrorPage';
 const App = () => {
   return (
-   <>
+    <>
 
-    <BrowserRouter>
+      <BrowserRouter>
 
-      <Routes>
-        <Route path='/'  element={<Home />}/>
-        <Route path='/about'  element={<About />}/>
-        <Route path='/projects'  element={ <Project />}/>
-        <Route path='/contact'  element={<Contac />}/>
-        
-      </Routes>
-    
-    </BrowserRouter>
-   
-   </>
-   
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/projects' element={<Project />} />
+          <Route path='/contact' element={<Contac />} />
+          <Route path='project-details/:idx' element={<ProjectDetils />} />
+          <Route path='*' element={<ErrorPage />} />
+
+        </Routes>
+
+      </BrowserRouter>
+
+    </>
+
   );
 }
 

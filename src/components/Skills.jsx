@@ -42,18 +42,18 @@ const skills = [
   },
   {
     name: 'Express.js',
-    // icon: 'fa-brands fa-node',
-    description: 'My Experience in node.js is Junior.'
+    icon: 'fab fa-node-js',
+    description: 'My Experience in Express.js is Junior.'
   },
   {
     name: 'MongoDB',
-    // icon: 'fa-brands fa-node',
-    description: 'My Experience in node.js is Junior.'
+    icon: 'fab fa-envira',
+    description: 'My Experience in MongoDB is Junior.'
   },
   {
     name: 'Figma',
-    // icon: 'fa-brands fa-node',
-    description: 'My Experience in .Figma is Junior.'
+    icon: 'fab fa-figma',
+    description: 'My Experience in Figma is Junior.'
   }
 ];
 

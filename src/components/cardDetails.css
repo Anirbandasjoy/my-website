@@ -1,0 +1,35 @@
+.project-details-container img {
+  width: 900px;
+  margin: auto;
+  margin-top: 8rem;
+  margin-bottom: 2rem;
+}
+.image {
+  /* background-color: blue; */
+  width: 100%;
+  text-align: center;
+}
+.detailstext {
+  /* background-color: red; */
+  max-width: 900px;
+  margin: auto;
+  margin-bottom: 5rem;
+}
+.detailstext h2 {
+  color: rgb(201, 201, 201);
+}
+.detailstext p {
+  margin-top: 2rem;
+  color: rgb(201, 201, 201);
+}
+.technology {
+  background: red;
+}
+@media screen and (max-width: 740px) {
+  .project-details-container img {
+    max-width: 100%;
+  }
+  .detailstext {
+    padding: 1rem;
+  }
+}

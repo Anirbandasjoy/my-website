@@ -38,3 +38,20 @@ ul {
   color: #fff;
   transition: 0.3s;
 }
+
+.sweetalert-custom-popup {
+  background: #323232;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.sweetalert-custom-background {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.sweetalert-custom-title {
+  color: #ffffff;
+}
+
+.sweetalert-custom-content {
+  color: #ffffff;
+}
