@@ -33,16 +33,16 @@ const Form = () => {
     <div className="form">
       <form onSubmit={handleSubmit}>
         <label>Your Name</label>
-        <input id='name' name='name' type="text" />
+        <input id='name' name='name' type="text" required />
 
         <label>Email</label>
-        <input id='email' name='email' type="email" />
+        <input id='email' name='email' type="email" required />
 
         <label>Subject</label>
-        <input id='subject' name='subject' type="text" />
+        <input id='subject' name='subject' type="text" required />
 
         <label>Message</label>
-        <textarea id='message' name='message' rows="6" placeholder="Type Your Message Here" />
+        <textarea id='message' name='message' rows="6" placeholder="Type Your Message Here" required />
         <button type='submit' className="btn">Submit</button>
       </form>
     </div>
